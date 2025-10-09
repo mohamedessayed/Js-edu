@@ -8,6 +8,7 @@
  * 
  * 
  * to print message vai web browser ---> window.alert('enter your message')
+ * to print message to developer vai web browser ---> window.console.log('developer message')
  * 
  * 
  * to take data vai web browser --> window.prompt('input Label')
@@ -34,7 +35,7 @@
  * 1- Math operator ( + , - , * , / , % )
  * 2- concation operator ( + )
  * 3- Compersion operator ( < , > , == , != , <= , >= , === , !== ) 
- * 
+ * 4- Binnary operator ( && , || , ! )
  * 
  * -----------------------
  * | Casting             |
@@ -53,20 +54,38 @@
  * 1- IF
  * 2- IF .. else
  * 3- If ... else If ... else if ...  else
+ * 
+ * 
+ * -----------------------
+ * | Loops               |
+ * -----------------------
+ * 
+ * 1- For
+ * 2- while
+ * 3- do while
+ * 
+ * -----------------------
+ * | Function            |
+ * -----------------------
+ * 1- function with no input, no return result
+ * 
  */
 
 
-var number = Number(window.prompt('Enter your number'));
-
-
-if (number > 0) {
-    window.alert('Positive')
-} else if(number < 0) {
-    window.alert('Negative')
-} else if(number == 0) {
-    window.alert('Zero')
-} else {
-    window.alert('Not a Number')
+function printHelloWorld(){
+    for(var i = 1; i<= 5; i++){
+        console.log('Hello World !')
+    }
 }
+
+
+printHelloWorld();
+
+
+
+
+
+
+
 
 
