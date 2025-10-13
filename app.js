@@ -80,10 +80,48 @@
  * 
  * function will excute when i call it
  * 
+ * -----------------------
+ * | Array               |
+ * -----------------------
  * 
+ * 1- array define using squar barket "[]"
+ * 2- Array start index  = 0
+ * 3- Array last index =  n-1 where n =  array item count
+ * 4- to get array item count you must use keyword "length"
+ * 
+ * array printing
+ * 
+ * 1- to print specific item in array we use arrayVariable[itemIndex]
+ * 2- to print all array items use "for loop"
+ * 
+ * set array value
+ * 
+ * 1- array set values to an index we use arrayVariable[itemIndex] = newValue
+ * 
+ * 
+ * array functions
+ * -----------------
+ * 
+ * 1- Push add item in last of array
+ * 2- unshift add item in first of array
+ * 
+ * 3- pop remove last element
+ * 4- shift remove first element
  * 
  */
 
+
+var contacts = [];
+
+contacts.unshift('Ghada')
+
+contacts.unshift('Salma')
+
+contacts.unshift('Mai')
+
+contacts.shift()
+
+console.log(contacts);
 
 
 
