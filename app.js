@@ -19,6 +19,11 @@
  * 
  * var variableName = "mohamed"
  * 
+ * Variable name Rules
+ * 1. strating with charcters or _ or $
+ * 2. not have special charcters like , ' " @ #
+ * 3- not start with numbers
+ * 
  * ------------------------------------
  * | Varibales Types                  |
  * ------------------------------------
@@ -45,7 +50,8 @@
  * 
  * 1- casting String to Number
  * 
- * Number('12')
+ * Number('12') => 12
+ * Number('abc') => NaN
  * 
  * -----------------------
  * | Condtions           |
@@ -67,23 +73,16 @@
  * -----------------------
  * | Function            |
  * -----------------------
- * 1- function with no input, no return result
+ * 1- function without input, without return result
+ * 2- function with input, with return result
+ * 3- function without input, with return result
+ * 
+ * 
+ * function will excute when i call it
+ * 
+ * 
  * 
  */
-
-
-function printHelloWorld(){
-    for(var i = 1; i<= 5; i++){
-        console.log('Hello World !')
-    }
-}
-
-
-printHelloWorld();
-
-
-
-
 
 
 
