@@ -78,6 +78,21 @@
  * 3- function without input, with return result
  * 
  * 
+ * Declartion function : start with keyword Function
+ * 
+ * EX:
+ * function sayHello (){
+ *  console.log('Hello'); 
+ * }
+ * 
+ * expression function: variable assign to anynmous function
+ * 
+ * EX:
+ * 
+ * var sayHello = function(){
+ * console.log('Hello')
+ * }
+ * 
  * function will excute when i call it
  * 
  * -----------------------
@@ -93,6 +108,7 @@
  * 
  * 1- to print specific item in array we use arrayVariable[itemIndex]
  * 2- to print all array items use "for loop"
+ * 3- to print all array items use "for .. of loop"
  * 
  * set array value
  * 
@@ -102,26 +118,30 @@
  * array functions
  * -----------------
  * 
- * 1- Push add item in last of array
- * 2- unshift add item in first of array
+ * 1- Push() -> add item in last of array
+ * 2- unshift() -> add item in first of array
  * 
- * 3- pop remove last element
- * 4- shift remove first element
+ * 3- pop() -> remove last element
+ * 4- shift() -> remove first element
+ * 
+ * 5- reverse() -> Reverses the elements in an array in place.
+ * 6- includes() -> Determines whether an array includes a certain element.
+ * 6- indexOf() -> Returns the index of the first occurrence of a value in an array, or -1 if it is not present.
+ * 7- lastIndexOf() -> Returns the index of the last occurrence of a specified value in an array, or -1 if it is not present.
+ * 8-slice() -> Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array. For example, -2 refers to the second to last element of the array.
+ * 9-splice() -> Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+ * 10- concat() -> Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+ *
  * 
  */
 
 
-var contacts = [];
 
-contacts.unshift('Ghada')
 
-contacts.unshift('Salma')
 
-contacts.unshift('Mai')
 
-contacts.shift()
 
-console.log(contacts);
+
 
 
 
