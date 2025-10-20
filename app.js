@@ -9,7 +9,7 @@
  * 
  * to print message vai web browser ---> window.alert('enter your message')
  * to print message to developer vai web browser ---> window.console.log('developer message')
- * 
+ * to get user action confirmation vai web browser ---> window.confirm('add confirmation message')
  * 
  * to take data vai web browser --> window.prompt('input Label')
  * 
@@ -132,9 +132,20 @@
  * 9-splice() -> Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
  * 10- concat() -> Combines two or more arrays. This method returns a new array without modifying any existing arrays.
  *
+ * -----------------------
+ * | Object              |
+ * -----------------------
+ * var object = {
+ *    key : value
+ * }
+ * 
+ * 
+ * access key value of object 
+ * 
+ * object.key
+ * 
  * 
  */
-
 
 
 
