@@ -175,7 +175,7 @@
  * 12-The  removeAttribute() removes the attribute with the specified name from the element.
  * 
  * 
- * 
+ * 13- addEventListener( function(){ ... } )
  * 
  */
 
