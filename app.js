@@ -144,8 +144,41 @@
  * 
  * object.key
  * 
+ * -----------------------
+ * | DOM                 |
+ * -----------------------
+ * 
+ * Access HTML tags using JS
+ * 
+ * 
+ * 1- According ID attribute --> documnet.getElementById('title)
+ * 
+ * 
+ * 
+ * DOM function and property
+ * 
+ * 1- The innerText property : of the HTMLElement interface represents the rendered text content.
+ * 2- The innerHTML property : of the Element interface gets or sets the HTML or XML markup contained within the element.
+ * 3- The style property : of the HTMLElement returns the inline style
+ * 
+ * 4- The Element.classList is a read-only property : that returns a live DOMTokenList collection of the class attributes of the element.
+ * 5- element.classList.add('addedClass') -->adds the given tokens to the list
+ * 6- element.classList.remove('addedClass') -->removes the given tokens from the list
+ * 7- element.classList.replace('class','newClass') --> replace the given tokens to the list
+ * 8- element.classList.contains('token') --> The contains() method of the DOMTokenList interface returns a boolean value — true if the underlying list contains the given token, otherwise false.
+ * 
+ * 9- The id property of the Element interface represents the element's identifier, reflecting the id global attribute.
+ * 
+ * 
+ * 10- The setAttribute() method of the Element interface sets the value of an attribute on the specified element.
+ * 11- The getAttribute() method of the element.
+ * 12-The Element method removeAttribute() removes the attribute with the specified name from the element.
+ * 
+ * 
+ * 
  * 
  */
+
 
 
 
