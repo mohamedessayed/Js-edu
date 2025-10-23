@@ -172,7 +172,7 @@
  * 
  * 10- The setAttribute() method of the Element interface sets the value of an attribute on the specified element.
  * 11- The getAttribute() method of the element.
- * 12-The Element method removeAttribute() removes the attribute with the specified name from the element.
+ * 12-The  removeAttribute() removes the attribute with the specified name from the element.
  * 
  * 
  * 
