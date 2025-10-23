@@ -152,6 +152,11 @@
  * 
  * 
  * 1- According ID attribute --> documnet.getElementById('title)
+ * 2- According Tag name --> document.getElementsByTagName('p')
+ * 3- According class name --> document.getElementsByClassName('custom')
+ * 
+ * 4- According Query selector --> document.querySelectorAll() : NodeList[] 
+ * 5- According Query selector --> document.querySelector() : first Element as Node
  * 
  * 
  * 
@@ -159,6 +164,7 @@
  * 
  * 1- The innerText property : of the HTMLElement interface represents the rendered text content.
  * 2- The innerHTML property : of the Element interface gets or sets the HTML or XML markup contained within the element.
+ * 
  * 3- The style property : of the HTMLElement returns the inline style
  * 
  * 4- The Element.classList is a read-only property : that returns a live DOMTokenList collection of the class attributes of the element.
@@ -174,13 +180,37 @@
  * 11- The getAttribute() method of the element.
  * 12-The  removeAttribute() removes the attribute with the specified name from the element.
  * 
+ * 13- The insertAdjacentHTML() method of the the resulting nodes into the DOM tree at a specified position.
+ * 14- The insertAdjacentText() method of the Element interface, given a relative position and a string, inserts a new text node at the given position
  * 
- * 13- addEventListener( function(){ ... } )
+ * 15-the document.createElement() method creates the HTML element
+ * 16- The insertAdjacentElement() method of the relative to the element it is invoked upon.
+ * 
+ * 17- addEventListener( function(){ ... } )
+ * 18- node.remove() for remove node from document
+ * 
+ * 
  * 
  */
 
 
+var body = document.querySelector('body');
 
+
+
+body.addEventListener('mousemove',function(e){
+
+    var cordinateX = e.clientX;
+    var cordinateY = e.clientY;
+
+    var fireImage = document.querySelector('.image-move');
+
+    fireImage.style.top = `${cordinateY}px`;
+    fireImage.style.left = `${cordinateX}px`
+    
+    
+
+})
 
 
 

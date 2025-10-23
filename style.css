@@ -1,3 +1,14 @@
 .text-success {
     color: green !important;
 }
+
+.bg-dark{
+    background-color: #000;
+    cursor: none;
+}
+
+.image-move{
+    position: absolute;
+    top: 5px;
+    left: 117px;
+}
